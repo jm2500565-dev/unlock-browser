@@ -1,0 +1,7 @@
+{
+  "name": "Unblocker Pro",
+  "description": "A sophisticated AI-powered mental unblocker designed to solve creative ruts, coding blocks, and decision paralysis using advanced reasoning and perspective shifting.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
