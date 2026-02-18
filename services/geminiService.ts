@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
-import { Perspective, Idea, UnblockMode, WebInsight, GamePrompt } from "../types";
+import { Perspective, Idea, UnblockMode, WebInsight, GamePrompt } from "../types.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 

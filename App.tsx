@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import RubberDuck from './components/RubberDuck';
-import IdeaBlitz from './components/IdeaBlitz';
-import PerspectiveShift from './components/PerspectiveShift';
-import ActionPlan from './components/ActionPlan';
-import WebExplorer from './components/WebExplorer';
-import MindGames from './components/MindGames';
-import { UnblockMode } from './types';
+import Sidebar from './components/Sidebar.tsx';
+import RubberDuck from './components/RubberDuck.tsx';
+import IdeaBlitz from './components/IdeaBlitz.tsx';
+import PerspectiveShift from './components/PerspectiveShift.tsx';
+import ActionPlan from './components/ActionPlan.tsx';
+import WebExplorer from './components/WebExplorer.tsx';
+import MindGames from './components/MindGames.tsx';
+import { UnblockMode } from './types.ts';
 
 const App: React.FC = () => {
   const [activeMode, setActiveMode] = useState<UnblockMode>(UnblockMode.RUBBER_DUCK);
